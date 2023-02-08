@@ -8,6 +8,9 @@ Console.Clear();
 Console.Write("Введите число : ");
 int s = int.Parse(Console.ReadLine());
 Console.WriteLine($"Количество цифр {CountNumbers(s)}");
+
+
+
 int CountNumbers(int n)
 {
   int count = 0;

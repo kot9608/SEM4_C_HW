@@ -10,10 +10,10 @@ int a = int.Parse (Console.ReadLine());
 Console.Write("Введите число B:");
 int b = int.Parse (Console.ReadLine());
 Console.WriteLine($"Число {a} в степени {b} равно {StepenB(a, b)}");
-int StepenB (int A, int B){
+int StepenB (int A, int B){//то, что принимает на вход метод
   int StepB=1;
   for (int i=1; i<=B;i++){
     StepB = StepB*A;
   }
-  return StepB;
+  return StepB;//то, что возвращает метод
 }
